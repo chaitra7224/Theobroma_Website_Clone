@@ -1,0 +1,179 @@
+body{
+
+    font-family: Arial, sans-serif;
+    background:#f7f3ef;
+    margin:40px;
+
+}
+
+h1{
+
+    text-align:center;
+    color:#5a3e2b;
+    margin-bottom:40px;
+
+}
+
+.cart-item{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    background:#fff;
+
+    border-radius:12px;
+
+    padding:20px;
+
+    margin-bottom:20px;
+
+    box-shadow:0 4px 10px rgba(0,0,0,.1);
+
+}
+
+.cart-info h3{
+
+    margin:0;
+    color:#5a3e2b;
+
+}
+
+.cart-info p{
+
+    margin:10px 0;
+    color:#555;
+
+}
+
+.cart-actions{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    gap:15px;
+
+}
+
+.quantity-box{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+}
+
+.quantity-box button{
+
+    width:35px;
+
+    height:35px;
+
+    border:none;
+
+    background:#BEA064;
+
+    color:white;
+
+    border-radius:50%;
+
+    cursor:pointer;
+
+    font-size:18px;
+
+}
+
+.quantity-box span{
+
+    font-size:18px;
+
+    font-weight:bold;
+
+}
+
+.remove-btn{
+
+    background:#d9534f;
+
+    color:white;
+
+    border:none;
+
+    padding:8px 15px;
+
+    border-radius:6px;
+
+    cursor:pointer;
+
+}
+
+.cart-summary{
+
+    background:white;
+
+    padding:25px;
+
+    margin-top:30px;
+
+    border-radius:12px;
+
+    box-shadow:0 4px 10px rgba(0,0,0,.1);
+
+    text-align:right;
+
+}
+
+#checkout-btn{
+
+    background:#BEA064;
+
+    color:white;
+
+    border:none;
+
+    padding:15px 35px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+    margin-top:20px;
+
+}
+
+#checkout-btn:hover{
+
+    background:#a9802a;
+
+}
+.cart-items{
+    margin-top: 80px;
+}
+body {
+    padding-top: 100px;
+}
+
+.admin-carts {
+    background: white;
+    padding: 25px;
+    margin: 30px 0;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,.1);
+}
+
+.admin-carts h2 {
+    color: #A9802A;
+    margin-bottom: 15px;
+}
+
+.admin-cart-row {
+    border-top: 1px solid #eee;
+    padding: 12px 0;
+}
