@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Theobroma Clone</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+</head>
+
+<body>
+     <div class="nav-bar">
+        <div class="nav-logo">
+            <img src="./assests//images/logo.avif" alt="Theobroma Logo">
+        </div>
+        <div class="nav-links">
+            <div class="nav-item">
+                <a href="./pages/about.html">About Us</a>
+            </div>
+        
+            <div class="nav-item">
+                <a href="./pages/product.html">Products</a>
+            </div>
+        
+            <div class="nav-item">
+                <a href="./pages/specialityCakes.html">Speciality Cakes</a>
+            </div>
+
+            <div class="nav-item" id="cart-container">
+                <a href="./pages/cart.html">Cart</a>
+            </div>
+        
+            <div class="nav-item order-btn">
+                <a href="#signup-popup">Order Online</a>
+            </div>
+            <div class="nav-item" id="logout-container">
+                <a href="#" id="logoutBtn">Logout</a>
+            </div>
+
+
+            <div id="signup-popup" class="popup">
+                <div class="popup-content">
+            
+                    <a href="#" class="close-btn">&times;</a>
+            
+                    <h2>Login</h2>
+            
+                    <form id="loginForm">
+
+                        <input
+                            type="email"
+                            id="loginEmail"
+                            name="email"
+                            placeholder="Email"
+                            required
+                        >
+                    
+                        <input
+                            type="password"
+                            id="loginPassword"
+                            name="password"
+                            placeholder="Password"
+                            required
+                        >
+                    
+                        <button type="submit">Login</button>
+                    
+                        <p>
+                            Don't have an account?
+                            <a href="#register-popup">Sign Up</a>
+                        </p>
+                    
+                    </form>
+            
+                </div>
+            </div>
+            <div id="register-popup" class="popup">
+                <div class="popup-content">
+            
+                    <a href="#" class="close-btn">&times;</a>
+            
+                    <h2>Sign Up</h2>
+            
+                    <form id="signupForm">
+            
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Full Name"
+                            required
+                        >
+            
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Email"
+                            required
+                        >
+            
+                        <input
+                            type="tel"
+                            id="phone"
+                            name="phone"
+                            placeholder="Phone Number"
+                            required
+                        >
+            
+                        <input
+                            type="password"
+                            id="password"
+                            name="password"
+                            placeholder="Password"
+                            required
+                        >
+            
+                        <input
+                            type="password"
+                            id="confirmPassword"
+                            name="confirmPassword"
+                            placeholder="Confirm Password"
+                            required
+                        >
+            
+                        <button type="submit">Sign Up</button>
+            
+                        <p>
+                            Already have an account?
+                            <a href="#signup-popup">Login</a>
+                        </p>
+            
+                    </form>
+            
+                </div>
+            </div>
+            
+        </div>
+
+     </div>
+     <section class="hero-section">
+
+        <img src="./assests/images/hero-banner.webp" alt="Cake Banner">
+    
+    </section>
+    <section class="about-section">
+       <div class="card">
+        <div>
+            <h4>AUTHENTIC RECIPES</h4>
+            <p>Our products are based on<br>
+            traditional home-style recipes<br>
+            using fresh ingredients.
+            </p>
+        </div>
+        <div>
+            <h4>BAKED WITH LOVE</h4>
+            <p>Our passion for baking is poured into<br>
+                every recipe, serving smiles on a<br>
+                plate everyday.
+            </p>
+        </div>
+        
+       </div>
+       <div class="middle-card">
+         <div class="top">
+            <h3>Food of The Gods, Freshly Baked!</h3>
+            <div class="diamond-container">
+
+                <div class="diamond"></div>
+                <div class="diamond"></div>
+                <div class="diamond"></div>
+                <div class="diamond"></div>
+            
+            </div>
+            <p>Since 2004, we've been serving our guests the best quality treats,<br>
+                 traditionally made and presented with care.</p>
+         </div>
+         <div class="middle">
+            <img src="./assests/images/hero-banner.webp" alt="">
+         </div>
+         
+       </div>
+       <div class="card">
+        <div>
+            <h4>COMMITTED TO QUALITY</h4>
+            <p>From our ingredients to our<br>
+                kitchen operations & guest services,<br>
+                we always prioritize quality.
+            </p>
+        </div>
+        <div>
+            <h4>HONESTLY PRICED</h4>
+            <p>We constantly strive to offer the best<br>
+                products at the right prices.
+            </p>
+        </div>
+       </div>
+    </section>
+    <section class="our-products">
+        <div  class="heading">
+            <h3> Our Products</h3>
+            <div class="diamond-container">
+
+                <div class="diamond"></div>
+                <div class="diamond"></div>
+                <div class="diamond"></div>
+                <div class="diamond"></div>
+            
+            </div>
+        
+
+        
+
+        </div>
+    <div class="bottom">
+        <div>
+            <img src="./assests/images/redvelvet-cake.webp" alt="cake">
+            <h4>CAKES</h4>
+        </div>
+        <div>
+            <img src="./assests/images/brownie.webp" alt="cake">
+            <h4>BROWNIES</h4>
+        </div>
+        <div>
+            <img src="./assests/images/cupcake.webp" alt="cake">
+            <h4>Desserts & Cupcakes</h4>
+        </div>
+        <div>
+            <img src="./assests/images/pastrie.webp" alt="cake">
+            <h4>Pastries</h4>
+
+    </div>    
+
+    </section>
+    <section class="gift-section">
+        <div class="about-gift">
+            <h4>Packed with love &<br>
+                all your favourites!
+            </h4>
+            <div class="diamond-container">
+
+                <div class="diamond"></div>
+                <div class="diamond"></div>
+                <div class="diamond"></div>
+                <div class="diamond"></div>
+            
+            </div>
+        <p>
+            Now gift your loved ones our special hampers curated with<br>
+             our signature products.
+        </p>
+        </div>
+        <div class="gift-img">
+            <img src="./assests/images/gift.webp" alt="">
+        </div>
+
+    </section>
+
+    <section class="gift-section tea-delight">
+        <div class="gift-img">
+            <img src="./assests/images/Tea-Cakes.webp" alt="">
+        </div>
+        <div class="about-gift">
+            <h4>Tea-Time Delights<br>
+            </h4>
+            <div class="diamond-container">
+
+                <div class="diamond"></div>
+                <div class="diamond"></div>
+                <div class="diamond"></div>
+                <div class="diamond"></div>
+            
+            </div>
+        <p>
+            Pick the perfect companion for your tea (or coffee!) from a<br>
+            range of tea cakes & more. 
+        </p>
+        </div>
+        
+
+    </section>
+    <section class="testimonial-section">
+        <div class="cupcake first">
+            <img src="./assests/images/testinomial-cake.png" alt="">
+        </div>
+        <div class="content">
+            <h2>Testimonials</h2>
+            <div class="diamond-container">
+
+                <div class="diamond"></div>
+                <div class="diamond"></div>
+                <div class="diamond"></div>
+                <div class="diamond"></div>
+            
+            </div>
+            
+            <img src="./assests/images/fm_testimonila-quote.avif" alt="">
+            
+            <p>
+                I love all Theobroma products but the chocolate overload brownie has been my all-time favourite and truly justifies its name with its rich chocolate gooeyness. Theobroma is truly one of our favourite places!
+            </p>
+            <h4>
+                Meenakshi verma, Pune
+            </h4>
+        </div>
+        <div class="cupcake last">
+            <img src="./assests/images/testinimial-pinkcake.png" alt="">
+        </div>
+    </section>
+
+    <section class="best-seller-section">
+
+        <h1>Our Best-Sellers</h1>
+    
+        <div class="diamond-container">
+    
+            <div class="diamond"></div>
+            <div class="diamond"></div>
+            <div class="diamond"></div>
+            <div class="diamond"></div>
+    
+        </div>
+    
+        <div class="product-container">
+    
+            <div class="product-card">
+    
+                <img src="./assests/images/freshpineappleCake.jpg" alt="cake">
+    
+                <h4>Fresh Cream Pineapple Cake</h4>
+    
+            </div>
+    
+            <div class="product-card">
+    
+                <img src="./assests/images/brownie.webp" alt="brownie">
+    
+                <h4>Overload Brownie</h4>
+    
+            </div>
+    
+            <div class="product-card">
+    
+                <img src="./assests/images/denseLoafImg.jpg" alt="loaf">
+    
+                <h4>Dense Loaf</h4>
+    
+            </div>
+    
+            <div class="product-card">
+    
+                <img src="./assests/images/bakedvadapav.jpg" alt="vada pao">
+    
+                <h4>Baked Wada Pao (1 Pc)</h4>
+    
+            </div>
+    
+            <div class="product-card">
+    
+                <img src="./assests/images/blueberryCheesecake.jpg" alt="dessert">
+    
+                <h4>Blueberry Dessert</h4>
+    
+            </div>
+    
+            <div class="product-card">
+    
+                <img src="./assests/images/brownie.webp" alt="cake slice">
+    
+                <h4>Chocolate Cake Slice</h4>
+    
+            </div>
+    
+            <div class="product-card">
+    
+                <img src="./assests/images/cookie.jpg" alt="cookies">
+    
+                <h4>Chocolate Chip Cookies</h4>
+    
+            </div>
+    
+            <div class="product-card">
+    
+                <img src="./assests/images//ButterPalmier.jpg "alt="puff">
+    
+                <h4>Puff Pastry Hearts</h4>
+    
+            </div>
+    
+        </div>
+    
+    </section>
+    <section class="order-section">
+
+        <div class="order-content">
+    
+            <h1>Like Our Products?</h1>
+    
+            <div class="diamond-container">
+    
+                <div class="diamond"></div>
+                <div class="diamond"></div>
+                <div class="diamond"></div>
+                <div class="diamond"></div>
+    
+            </div>
+    
+            <p>
+                Treat yourself to your favourite Theobroma products or surprise your loved ones with an edible gift.
+            </p>
+    
+            
+    
+        </div>
+    
+        <div class="horse-cart">
+    
+            <img src="./assests/images/horse.png" alt="horse cart">
+    
+        </div>
+    
+    </section>
+
+    <footer class="footer">
+
+        <div class="footer-container">
+    
+    
+          <div class="footer-logo">
+            <img src="./assests/images/theo-logo-footer.jpg" alt="logo">
+          </div>
+    
+    
+          <div class="footer-links">
+    
+            <ul>
+              <li><a href="#">OUR STORY</a></li>
+              <li><a href="#">OUR PRODUCTS</a></li>
+              <li><a href="#">SPECIALITY CAKES</a></li>
+              <li><a href="#">BLOGS</a></li>
+              <li><a href="#">CSR</a></li>
+              <li><a href="#">HTML SITEMAP</a></li>
+            </ul>
+    
+            <ul>
+              <li><a href="#">PRIVACY POLICY</a></li>
+              <li><a href="#">COOKIE POLICY</a></li>
+              <li><a href="#">REFUND POLICY</a></li>
+              <li><a href="#">FAQs</a></li>
+              <li><a href="#">NUTRITIONAL INFO</a></li>
+              <li><a href="#">CORPORATE GIFTING</a></li>
+            </ul>
+    
+          </div>
+    
+    
+          <div class="footer-contact">
+    
+            <p><i class="fa-solid fa-phone"></i>+91 8182-881881</p>
+    
+            <p><i class="fa-solid fa-envelope"></i>contact@theobroma.in</p>
+    
+            <div class="social-icons">
+    
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+    
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+    
+            </div>
+    
+          </div>
+    
+    
+          <!-- <div class="subscribe">
+    
+            <h3>Sign up for updates</h3>
+    
+            <div class="subscribe-box">
+    
+              <input type="email" placeholder="Enter your email...">
+    
+              <button>SIGN UP</button>
+    
+            </div>
+     -->
+            <div class="stores">
+    
+              OUR STORES -  Agra | Ahmedabad | Ambala | Anand | Bengaluru | Bhilai | 
+              Bhopal | Chandigarh-Mohali | Chennai | Coimbatore | Dehradun | Delhi |
+               Faridabad | Ghaziabad | Gurgaon | Goa | Hosur | Hyderabad | Indore | Jaipur |
+                Jalandhar | Kanpur | Karnal | Lucknow | Ludhiana | Meerut | Mumbai | Mysore | 
+                Nagpur | Nashik | Navi Mumbai | Noida | Patiala | Prayagraj | Pune | Punjab |
+                 Raipur | Rajkot | Rohtak | Surat | Thane | Vadodara | Varanasi | Vijaywada
+
+
+    
+            </div>
+    
+            <div class="disclaimer">
+    
+              FRANCHISE DISCLAIMER - Theobroma does not offer any
+              franchise, dealership or distributorship opportunities.
+              Any claim to the contrary is unauthorised and fraudulent.
+              Theobroma disclaims all liability arising from it.
+    
+            </div>
+    
+          </div>
+    
+        </div>
+    
+      </footer>
+      <script src="./js/storage.js"></script>
+      <script src="./js/Signup.js"></script>
+     <script src="./js/script.js"></script>
+     <script src="./js/login.js"></script>
+     <script src="./js/logout.js"></script>
+     <script src="./js/cart-nav.js"></script>
+</body>
+
+</html>
